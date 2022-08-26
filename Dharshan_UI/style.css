@@ -1,0 +1,45 @@
+.split {
+  height: 100vh;
+  width: 333px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+}
+.right {
+  right: 0;
+}
+.carousel-indicators [data-bs-target] {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 10px; /* change width */
+  height: 10px; /* change height */
+  padding: 0;
+  cursor: pointer;
+  background-color: white;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  /* opacity: .5; */
+  transition: opacity .6s ease;
+  border-radius: 100%;
+}
+
+.carousel-indicators .active {
+  background-color: black;
+  width: 20px;
+  border-radius: 50%;
+}
+
+input[type="checkbox"]:checked {
+  background-color: black;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration-line: underline;
+  cursor:pointer;  
+}
